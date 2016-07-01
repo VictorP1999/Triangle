@@ -3,8 +3,9 @@ import calculation.Calculation;
 import java.util.Scanner;
 
 /**
- * Created by Victor on 28.06.2016.
+ * Created by Victor Penkin on 28.06.2016.
  */
+
 public class Programm {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,5 +20,5 @@ public class Programm {
             int c = scanner.nextInt();
             Calculation.Calculation(a,b,c);
         }
-        }
     }
+}
